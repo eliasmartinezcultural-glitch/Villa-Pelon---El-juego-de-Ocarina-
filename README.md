@@ -1,11 +1,11 @@
 # VILLA PELÓN — Las aventuras de Luna
 
-**Prototipo jugable 0.3 · Ocarina Producciones · San Patricio del Chañar, Neuquén**
+**Prototipo jugable 0.4 · Ocarina Producciones · San Patricio del Chañar, Neuquén**
 
-## Qué incluye esta versión 0.3
+## Qué incluye esta versión 0.4
 
 - Mundo cenital de **144 × 96 casillas** con cámara que sigue a Luna, caminos y distintas zonas explorables.
-- Mundo de 144 × 96 casillas con cámara, caminos, zonas de edificios y minimapa visible.
+- Mundo 2D cenital de 100 × 70 casillas con cámara, calles más ordenadas, edificios, vegetación y minimapa visible.
 - Campaña de 15 misiones enlazadas, con objetivos, diálogos de avance y una conclusión narrativa.
 - Ciclo de día/noche, cambios de clima, lluvia visual, vehículos y animales que se mueven por el mundo.
 - Globos de diálogo sobre la escena, además de conversaciones ampliadas y diario.
@@ -60,3 +60,8 @@ Créditos: Ocarina Producciones · Historias, personas y territorio.
 ## Importante sobre esta versión
 
 La ambientación es una reconstrucción narrativa jugable, no un plano histórico exacto. Las misiones y el misterio tecnológico son ficción; los datos históricos se identifican dentro de los diálogos. Los vehículos y animales son elementos visuales del prototipo y todavía no tienen rutinas complejas ni colisiones propias. El juego debe probarse en navegador de escritorio y celular para validar controles, rendimiento y publicación de GitHub Pages.
+
+
+## Rehecho en versión 0.4
+
+Se reemplazó el prototipo visual anterior por un diseño 2D cenital nuevo, con movimiento continuo basado en tiempo (para reducir saltos según la velocidad del equipo), desplazamiento en cuatro direcciones, diagonales normalizadas, colisiones por casilla, calles rectas y controles táctiles. Se conservaron las 15 misiones, los diálogos, el minimapa, el ciclo horario y el clima. La nueva versión todavía requiere prueba manual en navegador de escritorio y celular.
