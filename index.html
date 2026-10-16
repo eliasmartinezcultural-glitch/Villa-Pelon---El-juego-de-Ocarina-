@@ -33,7 +33,7 @@ for(let x=0;x<MW;x++){map[0][x]=1;map[1][x]=1;map[MH-1][x]=1}
 for(let y=0;y<MH;y++){map[y][0]=1;map[y][1]=1;map[y][MW-1]=1}
 const buildings=[{x:10,y:10,w:8,h:6,name:'Casa de la memoria'},{x:28,y:8,w:9,h:7,name:'Estación de señales'},{x:49,y:15,w:9,h:7,name:'Taller de Luna'},{x:22,y:31,w:8,h:6,name:'Plaza del encuentro'},{x:51,y:33,w:10,h:6,name:'Archivo de Villa Pelón'}];
 const objects=[{x:15,y:19,id:'device',name:'Dispositivo antiguo',taken:false},{x:38,y:23,id:'photo',name:'Fotografía descolorida',taken:false},{x:55,y:29,id:'note',name:'Nota doblada',taken:false}];
-const npcs=[{x:20,y:22,name:'Doña Elena',kind:0},{x:41,y:20,name:'Tomi',kind:1},{x:58,y:29,name:'Cuidadora del archivo',kind:2}];
+const npcs=[{x:20,y:22,name:'Doña Elena',kind:0},{x:41,y:20,name:'Tomi',kind:1},{x:63,y:30,name:'Cuidadora del archivo',kind:2}];
 const luna={x:7*TILE,y:24*TILE,dir:'down',frame:0,moving:false};let keys={},touchMove=null,lastMove=0,dialogue=null,clues=new Set(),started=false;
 const cam={x:0,y:0};const el=id=>document.getElementById(id);
 function setToast(s){el('toast').textContent=s}
